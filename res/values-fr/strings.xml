@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+
     <!-- Global. -->
     <string name="about">À propos de QuickDic</string>
     <string name="settings">Configuration</string>
     <string name="help">Aide</string>
     <string name="reportIssue">Signaler un problème</string>
+    <string name="browserDownload">Télécharger dans le navigateur</string>
     <string name="no_dict_file">Merci de spécifier un répertoire par défaut dans les réglages.</string>
 
     <!-- DictionaryManagerActivity -->
     <string name="dictionaryManager">Gestion des dictionnaires</string>
     <string name="dictionariesOnDevice">Dictionnaires téléchargés</string>
     <string name="downloadableDictionaries">Dictionnaire disponibles</string>
+    <string name="sortDicts">Trier les dictionnaires</string>
     <string name="downloadButton">%.1fMB</string>
     <string name="updateAvailable">Mise à jour disponible !</string>
     <string name="moveToTop">Remonter en haut</string>
@@ -20,13 +23,22 @@
     <string name="managerShow">Afficher</string>
     <string name="managerHide">Masquer</string>
     <string name="error">Erreur</string>
-    <string name="unableToReadDictionaryDir">Impossible de lire le dictionnaire du répertoire : \n%1$s\n\nRépertoire Android de stockage externe : \n%2$s</string>
+    <string name="unableToReadDictionaryDir">Impossible de lire le dictionnaire du répertoire : \n
+  %1$s\n
+  \n
+  Répertoire Android de stockage externe : \n
+  %2$s</string>
 
     <!-- Download. -->
-    <string name="downloadFailed">Le téléchargement a échoué : \n%s.</string>
-    <string name="unzippingDictionary">Décompression en cours : \n%s</string>
-    <string name="unzippingFailed">La décompression a échoué : \n%s</string>
-    <string name="installationFinished">Installation terminée : \n%s.</string>
+    <string name="downloadFailed">Le téléchargement a échoué : \n
+  %s.</string>
+    <string name="downloadManagerQueryFailed">Impossible d\'ouvrir le gestionnaire de téléchargement. Est-il désactivé ou manquant ?</string>
+    <string name="unzippingDictionary">Décompression en cours : \n
+  %s</string>
+    <string name="unzippingFailed">La décompression a échoué : \n
+  %s</string>
+    <string name="installationFinished">Installation terminée : \n
+  %s.</string>
     <string name="notWritable">Dictionary location %s not writable, change in settings.</string>
 
     <!-- DictionaryActivity -->
@@ -41,9 +53,13 @@
     <string name="fontFailure">Erreur de la police : %s</string>
     <string name="seeAlso">Voir aussi : %1$s (%2$s)</string>
     <string name="speak">Parler</string>
+    <string name="speak_left">Lire la partie gauche</string>
+    <string name="speak_right">Lire la partie droite</string>
     <string name="nextWord">Mot suivant</string>
     <string name="previousWord">Mot précédent</string>
-    
+    <string name="randomWord">Mot au hasard</string>
+    <string name="TTSbroken">Le TTS ne fonctionne pas sur cet appareil</string>
+
     <!-- About dictionary. -->
     <string name="dictionaryPath">Fichier : %s</string>
     <string name="dictionarySize">Taille : %,d bytes</string>
@@ -54,10 +70,7 @@
     <string name="sourceInfo">%1$s : %2$,d entrées</string>
 
     <!-- About. -->
-    <string name="contactMe">Si vous utilisez Quickdic, j\'aimerai avoir votre retour !
-     Étant donné que le dictionnaire provient de sources externes, je ne suis pas responsable de son contenu (en dehors de la mise en forme).
-     Merci à Michael Vogel pour les icônes et la traduction allemande, sans oublier Justice Nanhou pour la traduction Française.
-     Merci d\'envoyer vos commentaires, bugs, propositions ou alors juste un petit bonjour à :</string>
+    <string name="contactMe">Si vous utilisez Quickdic, j\'aimerai avoir votre retour !      Étant donné que le dictionnaire provient de sources externes, je ne suis pas responsable de son contenu (en dehors de la mise en forme).      Merci à Michael Vogel pour les icônes et la traduction allemande, sans oublier Justice Nanhou pour la traduction Française.      Merci d\'envoyer vos commentaires, bugs, propositions ou alors juste un petit bonjour à :</string>
     <string name="webPage">Vous trouverez plus d\'informations sur cette page :</string>
     <string name="contributionsFrom">Contributions de :</string>
     <string name="license">QuickDic contient du code sous copyright de Google et publié sous la licence Apache 2.0.</string>
@@ -83,4 +96,5 @@
     <string name="themeTitle">Thème</string>
     <string name="themeSummary">Thème de couleurs de l\'interface utilisateur</string>
     <string name="chosenNotWritable">Chosen directory not writable, try one of</string>
+
 </resources>
